@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Time Manager</title>
+        <link href="/res/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+            <script src="http://libs.baidu.com/jquery/2.1.1/jquery.min.js"></script>
+            <script src="/res/bootstrap/js/handle403.js"></script>
+            <script src="/res/bootstrap/js/bootstrap.min.js"></script>
+            <script src="/res/js/timemanager.js"></script>
+            
+    </head>
+    <body onkeydown= >
+        <div class="container" id = "mainContainer">
+            <div class="jumbotron">
+                <h1>欢迎使用！</h1>
+                <p>{{ username }}</p>  
+                <p>
+                    <input  onkeydown=keyHandler(event,'setName') id = 'name' style="border-color:   #3333FF   #FF3333   #000000   #FF33FF;   border-width:   0pt;   border-right-width:   0pt;   border-bottom-width:   1pt;   border-left-width:   0pt" >
+
+                </p>
+            </div>
+        </div>
+        
+        
+    </body>
+</html>
